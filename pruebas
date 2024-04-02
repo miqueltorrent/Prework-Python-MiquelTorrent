@@ -1,0 +1,36 @@
+y = 14
+
+y_staring = str(y)
+
+print(y_staring)
+print(type(y_staring))
+
+
+
+lista_meta = ['jorge', 'luis', 'jaime','jose', 'kike']
+lista_pares = lista_meta[0::2]
+print(lista_pares)
+
+age = 20
+is_age_valid = bool(age >= 18 and age <= 25)
+
+print(is_age_valid)
+
+
+customer_id = {'78':'lola', '55':'kike', '49':'pepe'}
+
+for i in customer_id.keys():
+  customer_name = customer_id[i]
+  print(i, customer_name )
+print ('-----------------')
+for i,e in customer_id.items():
+  print(i,e)
+
+print ('--------------')
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+total = 0
+for number in numbers:
+  total += number
+
+print(total)
